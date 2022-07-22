@@ -10,7 +10,7 @@ window.addEventListener("load",function() {
                         <ul>
                             <li>Hours in space: ${json[i].hourInSpace}</li>
                             <li>Active: ${json[i].active}</li>
-                            <li>Skills: ${json[i].skills}</li>
+                            <li>Skills: ${json[i].skills.join(', ')}</li>
                         </ul>
                     </div>
                 <img class = 'avatar' src = ${json[i].picture}>
